@@ -1,0 +1,59 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+
+}
+
+.a-navbar{
+    color: white;
+    text-decoration: none;
+}
+.body{
+    background-color:beige;
+    height: 200vh;
+}
+.Nav-Bar{
+    background-color:darkgray;
+    width:  100%;
+    height: 15vh;
+}
+
+.Ul-Nav-Bar{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Li-Nav-Bar{
+    font-size: 3vh ;
+    list-style-type: none;
+    padding: 5vh;
+    color: white;
+    margin: 10vh;
+
+}
+
+.Li-Nav-Bar:hover{
+    background-color: blueviolet;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+}
+.Content-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content{
+    width: 50%;
+    height: 50%;
+
+}
+
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
